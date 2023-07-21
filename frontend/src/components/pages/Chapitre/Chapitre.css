@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+  align-items: center;
+}
+.nav-button {
+  height: 7vh;
+  width: 12vh;
+  background-color: #69b8df;
+  border: none;
+  border-radius: 15px;
+}
+.chapitrecontainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  width: 50vw;
+}
+
+@media screen and (max-width: 700px) {
+  .chapitrecontainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    width: 95vw;
+  }
+}
+.imgcontainer {
+  display: flex;
+}
+.image {
+  max-width: 60vw;
+  min-width: 100%;
+}

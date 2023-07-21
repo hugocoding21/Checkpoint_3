@@ -1,0 +1,56 @@
+.carrousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 25vh;
+  flex-direction: column;
+}
+
+.carrousel-slider {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 80%;
+  text-align: left;
+  margin-left: 1.9vw;
+}
+
+.slide {
+  flex: 0 calc(100% / 2); /* Pour 3 images par slide, utilisez calc(100% / 3) */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.imgcarousel {
+  width: 10vw;
+  height: 20vh;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20%);
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: aliceblue;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

@@ -1,0 +1,8 @@
+.scanpage {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: flex-start;
+}

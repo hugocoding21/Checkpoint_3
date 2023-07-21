@@ -1,0 +1,27 @@
+.mangainfo {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+.manga {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 5vh;
+  margin-left: 5vw;
+}
+
+.list-chap {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 3vh;
+  margin-top: 7vh;
+  max-height: 131vh;
+}

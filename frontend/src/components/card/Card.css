@@ -1,0 +1,19 @@
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 20vw;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8rem;
+  flex-wrap: nowrap;
+}
+
+.imgscan {
+  width: 150px;
+}
+
+.galerie {
+  display: flex;
+  margin-right: auto;
+}
